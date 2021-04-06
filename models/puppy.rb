@@ -4,7 +4,9 @@ class Puppy
   attr_reader :breed
   
   def initialize(name = nil, age = nil, breed = nil)
-    @name = name if name != nil
+    @name = name
+    @age = age
+    @breed = breed
   end
 
 end
