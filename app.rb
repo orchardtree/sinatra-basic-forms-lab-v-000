@@ -19,10 +19,3 @@ class App < Sinatra::Base
     erb :display_puppy
   end
 end
-=begin
-<body>
-  <p>Puppy Name: <%= @puppy.name %></p>
-  <p>Puppy Breed: <%= @puppy.breed %></p>
-  <p>Puppy Age: <%= @puppy.age %> months</p>
-</body>
-=end
